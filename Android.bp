@@ -1798,14 +1798,15 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libqti-perfd.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libxml2", "libqti-util", "libhidlbase", "vendor.qti.hardware.perf@2.0", "libbase", "libthermalclient", "libqti-perfd-client", "libperfconfig", "libperfgluelayer", "libdisplayconfig.qti", "libperfioctl", "vendor.qti.memory.pasrmanager@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libutils", "libxml2", "libqti-util", "libhidlbase", "vendor.qti.hardware.perf@2.0", "libbase", "libqti-perfd-client", "libperfconfig", "libperfgluelayer", "libdisplayconfig.qti", "libperfioctl", "vendor.qti.memory.pasrmanager@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqti-perfd.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libxml2", "libqti-util", "libhidlbase", "vendor.qti.hardware.perf@2.0", "libbase", "libthermalclient", "libqti-perfd-client", "libperfconfig", "libperfgluelayer", "libdisplayconfig.qti", "libperfioctl", "vendor.qti.memory.pasrmanager@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libutils", "libxml2", "libqti-util", "libhidlbase", "vendor.qti.hardware.perf@2.0", "libbase", "libqti-perfd-client", "libperfconfig", "libperfgluelayer", "libdisplayconfig.qti", "libperfioctl", "vendor.qti.memory.pasrmanager@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -4421,7 +4422,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgameoptfeature.so"],
-			shared_libs: ["liblog", "libcutils", "liblearningmodule", "libmeters-ns", "libsqlite", "libqti-perfd-client", "vendor.display.config@1.0", "libhidlbase", "libutils", "libthermalclient", "android.hardware.thermal@2.0", "android.hidl.allocator@1.0", "vendor.qti.qspmhal@1.0", "android.hidl.memory@1.0", "libhidlmemory", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "liblearningmodule", "libmeters-ns", "libsqlite", "libqti-perfd-client", "vendor.display.config@1.0", "libhidlbase", "libutils", "android.hardware.thermal@2.0", "android.hidl.allocator@1.0", "vendor.qti.qspmhal@1.0", "android.hidl.memory@1.0", "libhidlmemory", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10949,7 +10950,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/thermal-engine"],
-			shared_libs: ["libcutils", "liblog", "libqmi_common_so", "libqmi_cci", "libthermalclient", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libqmi_common_so", "libqmi_cci", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
