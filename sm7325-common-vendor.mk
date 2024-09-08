@@ -1118,11 +1118,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.0-java \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.dolby.media.c2@1.0-service \
-    vendor.qti.diag.hal.service \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.dolby.media.c2@1.0-service.xml \
+    vendor.qti.diag.hal.service.xml \
+    vendor.qti.gnss@4.0-service.xml \
+    vendor.qti.hardware.servicetracker@1.2-service.xml
 
 PRODUCT_PACKAGES += \
     libimscamera_jni_libimscamera_jni_symlink64 \
