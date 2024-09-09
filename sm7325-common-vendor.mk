@@ -330,6 +330,7 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
+    android.hardware.bluetooth@1.0-impl-qti \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -359,12 +360,14 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
+    libbtnv \
     libc2d30_bltlib \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
     libcdsp_default_listener \
     libcdsprpc \
+    libconfigdb \
     libcvp2_1 \
     libcvp_common \
     libcvp_util \
@@ -386,9 +389,11 @@ PRODUCT_PACKAGES += \
     liblistensoundmodel2 \
     libllvm-glnext \
     libllvm-qcom \
+    libmdmdetect \
     libmdsprpc \
     libmmosal \
     libmulawdec \
+    libnetmgr \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
@@ -417,11 +422,13 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
+    libsoc_helper \
     libthermalclient \
     libvppclient \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
+    libxml \
     libasphere \
     libqcbassboost \
     libqcreverb \
@@ -437,8 +444,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.vpp@2.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
+    vendor.qti.qspmhal@1.0 \
     libDxHdcp \
     libFileMux_proprietary \
     libOmxDsdDec \
@@ -479,7 +488,6 @@ PRODUCT_PACKAGES += \
     libwfdutils_proprietary \
     libmmieffectswrapper \
     libspeakerbundle \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
@@ -491,7 +499,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.2 \
     com.qualcomm.qti.uceservice@2.3 \
     deviceInfoServiceModuleNr \
-    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     vendor.qti.gnss@4.2-impl \
@@ -532,7 +539,6 @@ PRODUCT_PACKAGES += \
     libaoa \
     libappclassifier \
     libbt-hidlclient \
-    libbtnv \
     libcacertclient \
     libcdfw \
     libcdfw_remote_api \
@@ -540,7 +546,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libconfigdb \
     libcpion \
     libdataitems \
     libdisp-aba \
@@ -575,14 +580,12 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     libmdmcutback \
-    libmdmdetect \
     libmemperfd \
     libmeters-ns \
     libmeters \
     libminkdescriptor \
     libminksocket \
     libmotext_inf \
-    libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
@@ -591,6 +594,7 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libpowercore \
     libprekill \
     libqcbor \
     libqcc_file_agent \
@@ -637,7 +641,6 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_stub \
     libsnsapi \
     libsnsdiaglog \
-    libsoc_helper \
     libspcom \
     libspl \
     libsplh \
@@ -654,7 +657,6 @@ PRODUCT_PACKAGES += \
     libwms \
     libwqe \
     libwvhidl \
-    libxml \
     libxtadapter \
     qcrilMarshal \
     qcril_client \
@@ -769,7 +771,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.qspmhal@1.0-impl \
-    vendor.qti.qspmhal@1.0 \
     bm2n06 \
     bm2n08 \
     bm2n12 \
