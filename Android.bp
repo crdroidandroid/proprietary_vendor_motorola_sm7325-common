@@ -19269,22 +19269,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "init.qcom.sensors",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.sensors.sh",
-    filename: "init.qcom.sensors.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.media",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.media.sh",
-    filename: "init.qti.media.sh",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "irsc_util",
     owner: "motorola",

@@ -935,8 +935,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2@1.0-service \
     ims_rtp_daemon \
     imsdaemon \
-    init.qcom.sensors \
-    init.qti.media \
     irsc_util \
     ks \
     loadalgo \
